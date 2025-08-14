@@ -1,0 +1,22 @@
+{
+  "name": "doctor_appointment",
+  "version": "1.0.0",
+  "description": "Project on doctor appointment booking",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --max-old-space-size=2048 app.js",
+    "dev": "nodemon app.js"
+  },
+  "keywords": [
+    "appointment"
+  ],
+  "author": "Nikhil Sonje",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.1.0",
+    "nodemon": "^3.1.10",
+    "q": "^1.5.1",
+    "request": "^2.88.2",
+    "underscore": "^1.13.7"
+  }
+}

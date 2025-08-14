@@ -1,0 +1,14 @@
+{
+    "server": {
+        "port": 3010
+    },
+    "app": {
+        "prefix": "/api/doctor-appointment-stat"
+    },
+    "db_name": "jct_dev",
+    "moduleCode": "JCT",
+    "url": {
+        "getData": "http://hrplatformdev.ril.com/api/jct-admin-s/getData",
+        "saveData": "http://hrplatformdev.ril.com/api/jct-admin-s/saveData"
+    }
+}
